@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Spartan:wght@200&display=swap');
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Roboto', Helvetica, Arial, sans-serif;
+    --paragraph-font: 'Spartan', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: var(--paragraph-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background-color: #064789;
+    color: white;
+    font-family: var(--heading-font);
+    padding: 0.5em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: normal;
+    border-top: 5px double;
+    border-bottom: 5px double;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%
+}
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {}
+
+main {
+    color: #427AA1;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #064789;
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #064789;
+}
+
+.banner-box img {
+    grid-column: 1 / -1;
+    /* the -1 is just a fancy way to say "span all the columns" */
+    grid-row: 1;
+}
+
+.action {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 1em 3em;
+    padding: 1em;
+    text-align: center;
+}
+
+.home-grid {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+
+.home-headline-1 {
+    grid-column: 1 / 6;
+    grid-row: 1 / 1;
+}
+
+.home-paragraph-1 {
+    margin: 10px;
+    grid-column: 1 / 6;
+    grid-row: 2 / 4;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.home-right-img {
+    grid-column: 4 / 6;
+    grid-row: 1 / 3;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-shadow: -5px 5px 5px #999999;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.page-comments {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+hr {
+    width: 98%;
+    color: #064789;
+}
