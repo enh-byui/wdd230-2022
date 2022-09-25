@@ -11,8 +11,32 @@ body {
     font-family: var(--paragraph-font);
 }
 
-h1,
-h2,
+h1 {
+    background-color: #064789;
+    color: white;
+    font-family: var(--heading-font);
+    padding: 0.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: normal;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    font-size: larger;
+}
+
+h2 {
+    background-color: #064789;
+    color: white;
+    font-family: var(--heading-font);
+    padding: 0.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: normal;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    font-size: large;
+}
+
 h3,
 h4,
 h5,
@@ -21,7 +45,7 @@ h6 {
     color: white;
     font-family: var(--heading-font);
     padding: 0.5em;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     line-height: normal;
     border-top: 5px double;
@@ -57,6 +81,7 @@ footer {
     align-content: center;
     text-align: center;
     padding: 10px;
+    font-size: small;
 }
 
 .banner-box {
@@ -83,7 +108,7 @@ footer {
 .home-grid {
     margin-top: 5px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
 }
 

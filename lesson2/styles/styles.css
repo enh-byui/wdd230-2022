@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Spartan:wght@200&display=swap');
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Roboto', Helvetica, Arial, sans-serif;
+    --paragraph-font: 'Spartan', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: var(--paragraph-font);
+    font-size: small;
+}
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.banner-box {
+    display: grid;
+    background-color: #124559;
+    place-items: center;
+    text-align: center;
+    color: #F3F3F3;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #124559;
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
+
+h1,h2,h3 {
+    padding: 0px;
+    margin: 5px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    row-gap: 15px;
+    margin: 15px;
+}
+
+.item {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    border-color: #598392;
+    border-style: solid;
+    border-width: 1px;
+    font-family: sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+.item-title {
+    margin: 0px;
+    padding: 5px 5px 5px 0px;
+    background-color: #598392;
+    color: white;
+    text-align: left;
+
+}
+
+.company {
+    margin: 10px 0px 10px 5px;
+    text-align: left;
+}
+
+.website {
+    margin: 10px 0px 10px 5px;
+    text-align: left;
+}
+
+.item-image-container {
+    margin: 5px;
+}
+
+.item-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.item-description {
+    text-align: justify;
+    margin: 10px;
+}

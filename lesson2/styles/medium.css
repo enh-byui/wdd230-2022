@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: x-large;
+    }
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        row-gap: 15px;
+        margin: 15px;
+    }
+
+    .item-3 {
+        grid-column: 1/3;
+    }
+
+}
