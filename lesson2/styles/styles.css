@@ -54,7 +54,7 @@ h1,h2,h3 {
 .item {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
-    border-color: #598392;
+    border-color: #36515b;
     border-style: solid;
     border-width: 1px;
     font-family: sans-serif;
@@ -64,7 +64,7 @@ h1,h2,h3 {
 .item-title {
     margin: 0px;
     padding: 5px 5px 5px 0px;
-    background-color: #598392;
+    background-color: #36515b;
     color: white;
     text-align: left;
 
@@ -92,6 +92,5 @@ h1,h2,h3 {
 }
 
 .item-description {
-    text-align: justify;
     margin: 10px;
 }
